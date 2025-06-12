@@ -1,4 +1,3 @@
-// main.dart
 import 'dart:convert';
 import 'package:evaluacion_2/auth/LoginScreen.dart';
 import 'package:evaluacion_2/auth/RegisterScreen.dart';
@@ -66,7 +65,7 @@ class Cuerpo extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => const Listalocal()),
                 );
               },
-              child: const Text("Ir a Listalocal"),
+              child: const Text("API"),
             ),
             const SizedBox(height: 40),
             const Text("Sabine Vela"),
