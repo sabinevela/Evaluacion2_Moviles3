@@ -58,15 +58,7 @@ class Cuerpo extends StatelessWidget {
               child: const Text("Ir a Registro"),
             ),
             const SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => const Listalocal()),
-                );
-              },
-              child: const Text("API"),
-            ),
+          
             const SizedBox(height: 40),
             const Text("Sabine Vela"),
             const Text("sabinevela"),
