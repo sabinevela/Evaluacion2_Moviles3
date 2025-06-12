@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 
-class Lista2 extends StatelessWidget {
-  const Lista2({super.key});
+class Listalocal extends StatelessWidget {
+  const Listalocal({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,7 @@ class Lista2 extends StatelessWidget {
 }
 
 Future<List> leerJson(context) async {
-  String jsonString = await DefaultAssetBundle.of(context).loadString("assets/video_juegos.json");
+  String jsonString = await DefaultAssetBundle.of(context).loadString("lib/assets/data/video_juegos.json");
   Map datos = json.decode(jsonString);
   return datos["videojuegos"];
 }
