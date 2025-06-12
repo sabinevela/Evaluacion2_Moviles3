@@ -1,3 +1,5 @@
+// main.dart
+import 'dart:convert';
 import 'package:evaluacion_2/auth/LoginScreen.dart';
 import 'package:evaluacion_2/auth/RegisterScreen.dart';
 import 'package:evaluacion_2/screens/Listalocal.dart';
@@ -47,7 +49,6 @@ class Cuerpo extends StatelessWidget {
               child: const Text("Ir a Login"),
             ),
             const SizedBox(height: 20),
-
             ElevatedButton(
               onPressed: () {
                 Navigator.push(
@@ -58,7 +59,6 @@ class Cuerpo extends StatelessWidget {
               child: const Text("Ir a Registro"),
             ),
             const SizedBox(height: 20),
-
             ElevatedButton(
               onPressed: () {
                 Navigator.push(
@@ -69,7 +69,6 @@ class Cuerpo extends StatelessWidget {
               child: const Text("Ir a Listalocal"),
             ),
             const SizedBox(height: 40),
-
             const Text("Sabine Vela"),
             const Text("sabinevela"),
           ],
@@ -78,5 +77,4 @@ class Cuerpo extends StatelessWidget {
     );
   }
 }
-
 
