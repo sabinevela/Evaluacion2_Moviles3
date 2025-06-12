@@ -1,4 +1,5 @@
 import 'package:evaluacion_2/screens/DepositosScreen.dart';
+import 'package:evaluacion_2/screens/Listalocal.dart';
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
@@ -59,7 +60,7 @@ Widget formulario(BuildContext context) {
           onPressed: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => const Depositos()),
+              MaterialPageRoute(builder: (context) => const Listalocal()),
             );
           },
           child: const Text("Ver depósitos"),
